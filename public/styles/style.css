@@ -1,0 +1,69 @@
+body {
+    background-color: #00ff0d;
+}
+
+img{
+    object-fit: cover;
+    display: block;
+}
+
+h1 {
+    color: #bf0ee4;
+}
+
+p {
+    color: #ff7600;
+}
+
+.my-class {
+    font-size: 25px;
+    color: #9760ea;
+    background-color: #000000;
+    padding: 15px;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.my-class:hover {
+    background-color: #ffffff;
+    box-shadow: 0 5px 10px #bf0ee4;
+    translate: 1px -3px;
+}
+
+.my-class2 {
+    font-size: 25px;
+    color: #d63131;
+    background-color: #000000;
+    padding: 15px;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.my-class2:hover {
+    background-color: #ffffff;
+    box-shadow: 0 5px 10px #bf0ee4;
+    translate: 1px -3px;
+}
+
+.my-class2 + h3 {
+    font-size: 30px;
+    color: #d63131;
+    font-weight: 700;
+    display: none;
+}
+
+.my-class2:hover + h3 {
+    display: block;
+}
+
+.checkbox + label {
+    display: none;
+}
+
+.checkbox[checked=true] + label {
+    display: block;
+}
