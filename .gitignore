@@ -1,3 +1,4 @@
 .idea
-sounds/*.mp3
-sounds/*.mp4
+**/*.mp3
+**/*.mp4
+node_modules
